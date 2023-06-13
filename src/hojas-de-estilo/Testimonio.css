@@ -1,17 +1,20 @@
 /*Estilos solo para componente de Testimonio*/
 .contenedor-testimonio{
-    width: 1170px;
+    /* width: 1170px; */
+    max-width: 1170px;
     height: 368px;
     margin: 10px 10px 50px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #fff;
     box-shadow: 0 3px 13px 1px rgb(0 0 0/13);
 }
+
 .imagen-testimonio{
     height: 100%;
-    width: auto;
+    width: 100%; /*auto*/
 }
 .contenedor-texto-testimonio{
  padding: 40px;
@@ -36,4 +39,17 @@
 font-size: 1.1rem;
 text-align: justify;
 padding-bottom: 0;
+}
+
+@media (max-width: 842px) {
+    .contenedor-testimonio{
+        max-width: 500px;
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .contenedor-texto-testimonio{
+        padding: 20px;
+        font-size: 1.2rem;
+    }
 }

@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+## De que trata este ejercicio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En esta simple app the testimonios sirve como ejercicio para ver como pasar propiedades a un componente y se emple js template para poder recibier las propiedades para la ruta y alt de una imagen.
 
 ## Available Scripts
 
